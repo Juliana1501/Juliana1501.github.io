@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  
+}
+
+#page {
+    height: 100%;
+    width: 100%;
+    max-height: 1000px;
+    max-width: 1400px;
+}
+
+.fotofundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url("foto%20pessoal.png");
+    background-position: center;
+}
+
+nav ul {;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 40px 10px;
+    text-align: center;
+    color: #999999;
+    text-decoration: none;
+}
+
+nav ul a li:hover {
+    color: #7F0000;    
+}
+
+.grid-100{
+    position: relative;
+    left:60%;
+    box-sizing: 50%;
+}
+
+.quadrado {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);    
+}
+
+.icones {
+    position: absolute;
+    width: 46px;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.icones svg:hover {
+    background-image: repeating-radial-gradient;
+    opacity: 0.5;
+}
+
+.titulo {
+    font-size: 52px;
+    color: #999999;
+    position: absolute;
+    top:50%;
+    left: 57%;
+    transform: translateY(-25%);
+}
+
+h8 {
+    font-size: 38px;
+    color: #7F0000;
+}
+
